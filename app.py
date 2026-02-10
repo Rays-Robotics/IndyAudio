@@ -17,8 +17,9 @@ from mutagen.id3 import ID3
 from mutagen.flac import FLAC
 
 # === CONFIG ===
-DEFAULT_ALBUM_ART = Path("~/IndyAudio/default_album.jpg")
-APP_ICON = Path("~/IndyAudio/ico.svg")
+# BTW, If you are using this script change these paths... (I use arch BTW)
+DEFAULT_ALBUM_ART = Path("/dev/null/")
+APP_ICON = Path("/dev/null/")
 # =======================================================
 
 def get_duration_with_ffprobe(path):
