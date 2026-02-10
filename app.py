@@ -17,7 +17,7 @@ from mutagen.id3 import ID3
 from mutagen.flac import FLAC
 
 # === CONFIG ===
-DEFAULT_ALBUM_ART = Path("~/IndyAudio/defualt_album.jpg")
+DEFAULT_ALBUM_ART = Path("~/IndyAudio/default_album.jpg")
 APP_ICON = Path("~/IndyAudio/ico.svg")
 # =======================================================
 
